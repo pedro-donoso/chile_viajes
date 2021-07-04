@@ -10,6 +10,11 @@ nav {
   font-weight: bold;
 }
 
+.navbar-brand img {
+    height: 40px;
+}
+
+
 /* Hero Section */
 
 #Hero-Section {
