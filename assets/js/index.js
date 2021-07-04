@@ -1,25 +1,18 @@
-// smooth control
-
 $(document).ready(function () {
   $("a").click(function (event) {
     event.preventDefault();
 
-    var gato = this.hash;
+    var mia = this.hash;
 
     $("html").animate(
       {
-        scrollTop: $(gato).offset().top - 86,
+        scrollTop: $(mia).offset().top - 20,
       },
-
       800
     );
   });
 });
 
-// tooltip
-
-$('[data-toggle="tooltip"]').tooltip();
-
-// popover
-
-$('[data-toggle="popover"]').popover();
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});

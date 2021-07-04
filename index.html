@@ -2,15 +2,13 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viajes Chile</title>
-
-   <link rel="shortcut icon" type="image/png" href="./assets/img/viajes.svg">
-   <meta name="author" content="Pedro Donoso">
-   <meta name="description" content="Viajes por Chile">
-   <meta name="keywords" content="viajes, chile, viajeros, país, trekking">
+  <meta name="author" content="Pedro Eduardo Donoso Ramírez">
+  <meta name="description" content="Landing Page sobre viajes por Chile">
+  <meta name="keywords" content="viajes, país, chile, viajando, viajeros">
 
   <!--bootstrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -24,263 +22,204 @@
   <!--font awesome-->
 
   <!--tipografias-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet">
   <!--tipografias-->
 
-  <!--estilos css-->
-  <link rel="stylesheet" href="assets/css/estilos.css" />
-  <!--estilos css-->
+  <!--mis estilos css-->
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <!--mis estilos css-->
+
 </head>
 
 <body>
-  <!--navbar-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-    <div class="container">
 
 
-      <a class="navbar-brand" href="#top-main">
-        <img src="assets/img/viajes.svg" alt="Viajes Logo">
-
-<a class="navbar-brand" href="#">Viajes Chile</a>
-
+  <!--navbar bootstrap-->
+  <div id="inicio" class="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="inicio">
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">
+          <img src="assets/img/viajes.svg" alt="logo">
+          Viajes Chile
         </a>
-
-      
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#Sobre-Mi">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Experiencia">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Trabajos">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contacto">Cotacto</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+  </div>
+
+
+
+  <!--navbar bootstrap-->
+  <header>
+    <!--Carrusel bootstrap-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
     </div>
-  </nav>
-  <!--navbar-->
-
-  <!--header-->
-
-  <header id="Hero-Section">
-    <div class="text-center text-white">
-      <h1>PEDRO DONOSO</h1>
-
-      <hr class="bg-white hero-line" />
-
-      <h1>SMART CITIES</h1>
-    </div>
+    <!--Carrusel bootstrap-->
   </header>
 
-  <!--header-->
+  <div class="container">
 
-  <!--Sobre Mi-->
-
-  <section class="pt-5 d-none d-sm-block container" id="Sobre-Mi">
-    <div>
-      <h4 class="text-center">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non minus
-        soluta laudantium vel sequi perferendis et
-      </h4>
-
-      <hr class="bg-dark" />
-    </div>
-
-    <div class="row pt-3">
-      <div class="col-6">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-          vero facere possimus fugit cupiditate in asperiores perferendis eius
-          nam reprehenderit sint enim quae porro et eaque, aliquid dolore?
-          Minima, eius!
-        </p>
-      </div>
-
-      <div class="col-6">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quas
-          expedita esse vero quasi velit obcaecati quaerat, molestias autem
-          ipsa animi, hic blanditiis sunt. Voluptas neque velit distinctio
-          animi dolorum?
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!--Sobre Mi-->
-
-  <!--Mi Experiencia-->
-
-  <section class="container text-center py-5" id="Experiencia">
-    <div class="font-weight-bold text-uppercase">
-      <h1>mi experiencia</h1>
-
-      <hr />
-
+    <section id="quienes-somos" class="p-3 p-md-5 d-none d-md-block">
+      <h2 class="quienes-somos__textos pb-3 text-center">¿Quiénes Somos?</h2>
+      <hr>
       <div class="row pt-3">
-        <article class="col-12 col-sm-6">
-          <i data-toggle="tooltip" data-placement="top" title="Tooltip on top" class="fab fa-empire fa-10x"></i>
-
-          <h4 class="font-weight-bold mt-3">Stormtrooper</h4>
-
-          <h4>1980 - 2014</h4>
-        </article>
-
-        <article class="col-12 col-sm-6">
-          <i 
-
-data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"
-
-            class="fab fa-medium-m fa-10x"></i>
-
-          <h4 class="font-weight-bold mt-3">Desarrollador Rails</h4>
-
-          <h4>2014 - 2018</h4>
-        </article>
+        <div class="col-4">
+          <div class="quienes-somos__titulos" data-toggle="tooltip" data-placement="bottom" title="Viaja seguro">
+            <i class="fas fa-plane"></i>
+          </div>
+          <p class="quienes-somos__parrafos">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-4">
+       <p class="quienes-somos__parrafos">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="quienes-somos__titulos" data-toggle="tooltip" data-placement="top" title="Supera desafíos">
+            <i class="fas fa-mountain"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="quienes-somos__titulos" data-toggle="tooltip" data-placement="bottom" title="Controla tu ruta">
+            <i class="fas fa-route"></i>
+          </div>
+         <p class="quienes-somos__parrafos">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Mi Experiencia-->
 
-  <!--Trabajos-->
+    <!--cards-->
 
-  <section class="py-5" id="Trabajos">
-    <div>
-      <h1 class="text-uppercase text-white text-center mt-2">
-        mis últimos trabajos
-      </h1>
 
-      <hr class="bg-white" />
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-4 my-3">
-          <div class="card border-0">
-            <img 
-            
-            data-toggle="modal" data-target="#exampleModal"
-            
-            
-            
-            src="assets/img/meet_coffee.png" class="card-img-top" />
-            <div class="card-body">
-              <h4 class="card-title mb-3">Meet&Coffee</h4>
-              <p class="card-text font-weight-lighter">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus impedit libero ipsum similique
-              </p>
+
+    <section id="destacados" class="p-3 p-md-5 container">
+      <h3 class="destacados__textos text-center pb-3">Destacados</h3>
+      <hr>
+
+
+      <div class="container mb-5 pb-5" id="destacados">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+            <div class="card" style="width: 15rem;">
+              <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-12 col-sm-4 my-3">
-          <div class="card border-0">
-            <img src="assets/img/iguana_page.png" class="card-img-top" />
-            <div class="card-body">
-              <h4 class="card-title mb-3">Iguana Page</h4>
-              <p class="card-text font-weight-lighter">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus impedit libero ipsum similique
-              </p>
+          <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+            <div class="card" style="width: 15rem;">
+              <img id="imagen" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card
+                  content</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-12 col-sm-4 my-3">
-          <div class="card border-0">
-            <img src="assets/img/suricata.png" class="card-img-top" />
-            <div class="card-body">
-              <h4 class="card-title mb-3">Suricata</h4>
-              <p class="card-text font-weight-lighter">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus impedit libero ipsum similique
-              </p>
+          <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+            <div class="card" style="width: 15rem;">
+              <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-12 col-sm-4 my-3">
-          <div class="card border-0">
-            <img src="assets/img/cuppon.png" class="card-img-top" />
-            <div class="card-body">
-              <h4 class="card-title mb-3">Cuppon</h4>
-              <p class="card-text font-weight-lighter">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus impedit libero ipsum similique
-              </p>
+          <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+            <div class="card" style="width: 15rem;">
+              <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-12 col-sm-4 my-3">
-          <div class="card border-0">
-            <img src="assets/img/ricomida.png" class="card-img-top" />
-            <div class="card-body">
-              <h4 class="card-title mb-3">Ricomida</h4>
-              <p class="card-text font-weight-lighter">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus impedit libero ipsum similique
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-sm-4 my-3">
-          <div class="card border-0">
-            <img src="assets/img/dmark.png" class="card-img-top" />
-            <div class="card-body">
-              <h4 class="card-title mb-3">DMark</h4>
-              <p class="card-text font-weight-lighter">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus impedit libero ipsum similique
-              </p>
-            </div>
-          </div>
         </div>
-
 
       </div>
+    </section>
 
+  </div>
 
+  <!--cards-->
 
-
-    </div>
-  </section>
-
-  <!--Trabajos-->
-
-  <!--Contacto-->
-
-  <section class="container text-center py-5" id="Contacto">
+  <!--typeform-->
+  <section class="contacto container text-center py-5" id="contacto">
 
     <div>
-      <h1 class="font-weight-bold text-uppercase">contacto</h1>
-
-      <hr class="bg-dark">
+       <h2 class="contacto__textos pb-3 text-center">Contacto</h2>
+       <hr>
 
     </div>
-
-
-
-
 
     <div class="typeform-widget" data-url="https://form.typeform.com/to/TTGAsVCU?typeform-medium=embed-snippet"
       style="width: 100%; height: 500px;"></div>
@@ -302,76 +241,31 @@ data-toggle="popover" title="Popover title" data-content="And here's some amazin
       })()
     </script>
 
-
-
-
   </section>
+  <!--typeform-->
 
-  <!--Contacto-->
-
-
-  <!--Footer-->
-
-  <footer class="text-center text-white py-5" id="Footer">
-
-    <div class="row container m-auto">
-
-      <div class="col-12 col-sm-6">
-
-        <h1 class="font-weight-bold">PEDRO DONOSO</h1>
-
-
-      </div>
-
-      <div class="col-12 col-sm-6 mt-4 mt-sm-0">
-
-
-        <i class="fab fa-github-square fa-3x mx-2"></i>
-
-        <i class="fab fa-linkedin fa-3x mx-2"></i>
-
-        <i class="fab fa-twitter-square fa-3x mx-2"></i>
-
-        <i class="fab fa-facebook-square fa-3x mx-2"></i>
-
-      </div>
-
-
-
-
-
-
-    </div>
-
-
-
-
-  </footer>
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-
+   <footer id="footer" class="footer text-center py-3 py-sm-0">
+     <div class="row container m-auto py-1">
+       <div class="col-12 col-sm-6">
+         <h3 class="footer__textos font-weight-bold text-uppercase mb-0">Viajes Chile</h3>
+       </div>
+       <div
+         class="mt-3 mt-sm-0 col-12 col-sm-6 d-flex align-items-center justify-content-center justify-content-md-right">
+         <a href="http://github.com">
+           <i class="fab fa-github-square fa-2x mx-2"></i>
+         </a>
+         <a href="http://linkedin.com">
+           <i class="fab fa-linkedin fa-2x mx-2"></i>
+         </a>
+         <a href="https://twitter.com">
+           <i class="fab fa-twitter-square fa-2x mx-2"></i>
+         </a>
+         <a href="https://www.facebook.com">
+           <i class="fab fa-facebook-square fa-2x mx-2"></i>
+         </a>
+       </div>
+     </div>
+   </footer>
 
   <!--scripts bootstrap-->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -386,8 +280,6 @@ data-toggle="popover" title="Popover title" data-content="And here's some amazin
 
 
   <script src="assets/js/index.js"></script>
-
-
 </body>
 
 </html>
